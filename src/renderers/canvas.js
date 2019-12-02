@@ -114,7 +114,7 @@ class CanvasRenderer{
 				ctx.textAlign = 'center';
 			}
 
-			ctx.fillText(encoding.text, x, y);
+			ctx.fillText(options.optionText, x, y);
 		}
 	}
 
