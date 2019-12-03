@@ -131,8 +131,8 @@ var CanvasRenderer = function () {
 						x = encoding.width / 2;
 						ctx.textAlign = 'center';
 					}
-
-				ctx.fillText(encoding.text, x, y);
+				console.log(options.optionText);
+				ctx.fillText(options.optionText, x, y);
 			}
 		}
 	}, {
